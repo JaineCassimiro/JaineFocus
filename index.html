@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JaineFocus • Pomodoro & Tarefas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="glow">🎀 JaineFocus</h1>
+    <p>Organize seus estudos com estilo e foco total!</p>
+  </header>
+
+  <main>
+    <section class="pomodoro">
+      <h2 class="section-title">⏱️ Timer Pomodoro</h2>
+      <div id="timer-display">25:00</div>
+      <div class="timer-controls">
+        <button id="start-pause">Iniciar</button>
+        <button id="reset">Reiniciar</button>
+      </div>
+    </section>
+
+    <section class="tasks">
+      <h2 class="section-title">📚 Minhas Tarefas</h2>
+      <div class="task-input">
+        <input type="text" id="task-input" placeholder="Digite uma nova tarefa...">
+        <button id="add-task">Adicionar</button>
+      </div>
+      <ul id="task-list"></ul>
+    </section>
+      <section class="agenda">
+      <h2 class="section-title">📅 Agenda e Calendário</h2>
+      <input type="date" id="date-picker">
+      <textarea id="agenda-note" placeholder="Anotações para o dia selecionado..."></textarea>
+      <button id="save-agenda">Salvar Anotação</button>
+      <div id="agenda-display"></div>
+    </section>
+
+</main>
+
+  <footer>
+    <p>Feito com 💖 por Senhorita Jaine Cassimiro & Lumin</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
